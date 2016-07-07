@@ -8,13 +8,20 @@ var port = process.env.port || 3000
 
 var branchList = [];
 
-app.get('/', function (req, res) {
-
+app.get('/branches/', function (req, res) {
+    updateBranchStatus(function (branchList) {
+        res.type('json');
+        res.send(JSON.stringify(branchList, null, 4));
+    });
 });
 
-app.get('/branches/', function (req, res) {
+var server = app.listen(port, function () {
+    getBranchList();
+});
 
-    fetchRmvData(function (data) {
+
+function updateBranchStatus(callback) {
+    getRmvData(function (data) {
         for (var branchId in data.branches.branch) {
             if (data.branches.branch.hasOwnProperty(branchId)) {
                 var branch = data.branches.branch[branchId];
@@ -22,24 +29,20 @@ app.get('/branches/', function (req, res) {
                 branchList[branch.town[0]].Registration = branch.registration[0];
             }
         }
-        res.type('json');
-        res.send(JSON.stringify(branchList, null, 4));
+        callback(branchList);
     });
+}
 
-});
-
-var server = app.listen(port, function () {
-    // Start listening
-
+function getBranchList(callback) {
     var contents = fs.readFileSync("branches.json");
-    var jsonContent = JSON.parse(contents);
-    branchList = jsonContent;
-});
+    branchList = JSON.parse(contents);
+    if (callback) callback(branchList);
+}
 
-function fetchRmvData(callback) {
+function getRmvData(callback) {
     request('http://www.massdot.state.ma.us/feeds/qmaticxml/qmaticXML.aspx', function (err, response, body) {
         parseString(body, function (err, result) {
-            callback(result);
+            if (callback) callback(result);
         });
     });
 }
