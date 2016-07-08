@@ -1,24 +1,55 @@
-var express = require('express');
-var fs = require("fs");
-var request = require('request')
-var parseString = require('xml2js').parseString
+const rmv = require('./lib/rmv.js');
+
+const express = require('express');
 
 var app = express();
 var port = process.env.port || 3000
 
-var branchList = [];
 
+app.get('/', function (req, res) {
+    rmv.getAll(function (result) {
+        res.type('json');
+        res.send(JSON.stringify(result, null, 4));
+
+    });
+});
+
+app.get('/branches', function (req, res) {
+    rmv.getBranchData(function (result) {
+        res.type('json');
+        res.send(JSON.stringify(result, null, 4));
+    });
+});
+
+app.get('/rmv', function (req, res) {
+    rmv.getRmvData(function (result) {
+        res.type('json');
+        res.send(JSON.stringify(result, null, 4));
+    });
+});
+
+app.get('/record', function (req, res) {
+    rmv.recordSample(function (result) {
+        res.type('json');
+        res.send(JSON.stringify(result, null, 4));
+    });
+});
+
+/*
 app.get('/branches/', function (req, res) {
     updateBranchStatus(function (branchList) {
         res.type('json');
         res.send(JSON.stringify(branchList, null, 4));
     });
 });
+*/
 
 var server = app.listen(port, function () {
-    getBranchList();
+
+    //getBranchList();
 });
 
+/*
 
 function updateBranchStatus(callback) {
     getRmvData(function (data) {
@@ -33,11 +64,6 @@ function updateBranchStatus(callback) {
     });
 }
 
-function getBranchList(callback) {
-    var contents = fs.readFileSync("branches.json");
-    branchList = JSON.parse(contents);
-    if (callback) callback(branchList);
-}
 
 function getRmvData(callback) {
     request('http://www.massdot.state.ma.us/feeds/qmaticxml/qmaticXML.aspx', function (err, response, body) {
@@ -47,3 +73,4 @@ function getRmvData(callback) {
     });
 }
 
+*/

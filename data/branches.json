@@ -1,302 +1,213 @@
 {
     "Attleboro": {
         "Address": "75 Park Street",
-        "DisplayAddress": "75 Park Street, Attleboro, MA",
-        "DisplayName": "Attleboro",
-        "Distance": 0.0,
+        "Name": "Attleboro",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/f/f1/Old_Attleboro%2C_MA%2C_post_office.jpg",
         "Latitude": 41.943778991699219,
-        "Longitude": -71.279823303222656,
-        "ID": "Attleboro"
+        "Longitude": -71.279823303222656
     },
     "Boston": {
         "Address": "630 Washington Street",
-        "DisplayAddress": "630 Washington Street, Boston, MA",
-        "DisplayName": "Boston",
-        "Distance": 0.0,
+        "Name": "Boston",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/94/USA-Massachusetts_State_House0.jpg/640px-USA-Massachusetts_State_House0.jpg",
         "Latitude": 42.352180480957031,
-        "Longitude": -71.062454223632812,
-        "ID": "Boston"
+        "Longitude": -71.062454223632812
     },
     "Braintree": {
         "Address": "10 Plain Street",
-        "DisplayAddress": "10 Plain Street, Braintree, MA",
-        "DisplayName": "Braintree",
-        "Distance": 0.0,
+        "Name": "Braintree",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Braintree_Old_Library.jpg/640px-Braintree_Old_Library.jpg",
         "Latitude": 42.196212768554688,
-        "Longitude": -71.003570556640625,
-        "ID": "Braintree"
+        "Longitude": -71.003570556640625
     },
     "Brockton": {
         "Address": "490 Forest Ave",
-        "DisplayAddress": "490 Forest Ave, Brockton, MA",
-        "DisplayName": "Brockton",
-        "Distance": 0.0,
+        "Name": "Brockton",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/85/BrocktonCityHall.jpg/592px-BrocktonCityHall.jpg",
         "Latitude": 42.07061767578125,
-        "Longitude": -71.041389465332031,
-        "ID": "Brockton"
+        "Longitude": -71.041389465332031
     },
     "Chicopee": {
         "Address": "1011 Chicopee Street",
-        "DisplayAddress": "1011 Chicopee Street, Chicopee, MA",
-        "DisplayName": "Chicopee",
-        "Distance": 0.0,
+        "Name": "Chicopee",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/City_Hall%2C_Chicopee_MA.jpg/640px-City_Hall%2C_Chicopee_MA.jpg",
         "Latitude": 42.191902160644531,
-        "Longitude": -72.600593566894531,
-        "ID": "Chicopee"
+        "Longitude": -72.600593566894531
     },
     "Danvers": {
         "Address": "100 Independence Way",
-        "DisplayAddress": "100 Independence Way, Danvers, MA",
-        "DisplayName": "Danvers",
-        "Distance": 0.0,
+        "Name": "Danvers",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/6/63/North_end_of_MA_Route_35_entering_Danvers%2C_MA.jpg/512px-North_end_of_MA_Route_35_entering_Danvers%2C_MA.jpg",
         "Latitude": 42.552906036376953,
-        "Longitude": -70.939857482910156,
-        "ID": "Danvers"
+        "Longitude": -70.939857482910156
     },
     "East Hampton": {
         "Address": "116 Pleasant St",
-        "DisplayAddress": "116 Pleasant St, East Hampton, MA",
-        "DisplayName": "Easthampton",
-        "Distance": 0.0,
+        "Name": "Easthampton",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Mount_Tom_Easthampton_MA.JPG/320px-Mount_Tom_Easthampton_MA.JPG",
         "Latitude": 42.272979736328125,
-        "Longitude": -72.663482666015625,
-        "ID": "East Hampton"
+        "Longitude": -72.663482666015625
     },
     "Fall River": {
         "Address": "203 Plymouth Avenue",
-        "DisplayAddress": "203 Plymouth Avenue, Fall River, MA",
-        "DisplayName": "Fall River",
-        "Distance": 0.0,
+        "Name": "Fall River",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/2/21/Downtown_Fall_River.jpg",
         "Latitude": 41.697315216064453,
-        "Longitude": -71.14910888671875,
-        "ID": "Fall River"
+        "Longitude": -71.14910888671875
     },
     "Greenfield": {
         "Address": "18 Miner Street",
-        "DisplayAddress": "18 Miner Street, Greenfield, MA",
-        "DisplayName": "Greenfield",
-        "Distance": 0.0,
+        "Name": "Greenfield",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Greenfield_Town_Hall.jpg/411px-Greenfield_Town_Hall.jpg",
         "Latitude": 42.585971832275391,
-        "Longitude": -72.619682312011719,
-        "ID": "Greenfield"
+        "Longitude": -72.619682312011719
     },
     "Haverhill": {
         "Address": "4 Summer Street",
-        "DisplayAddress": "4 Summer Street, Haverhill, MA",
-        "DisplayName": "Haverhill",
-        "Distance": 0.0,
+        "Name": "Haverhill",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Tattersall_Farm%2C_Haverhill_MA.jpg/640px-Tattersall_Farm%2C_Haverhill_MA.jpg",
         "Latitude": 42.777553558349609,
-        "Longitude": -71.077178955078125,
-        "ID": "Haverhill"
+        "Longitude": -71.077178955078125
     },
     "Lawrence": {
         "Address": "73 Winthrop Avenue",
-        "DisplayAddress": "73 Winthrop Avenue, Lawrence, MA",
-        "DisplayName": "Lawrence",
-        "Distance": 0.0,
+        "Name": "Lawrence",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/e/ee/Ayer_Mill_View.jpg",
         "Latitude": 42.6899299621582,
-        "Longitude": -71.149627685546875,
-        "ID": "Lawrence"
+        "Longitude": -71.149627685546875
     },
     "Leominster": {
         "Address": "80 Erdman Way",
-        "DisplayAddress": "80 Erdman Way, Leominster, MA",
-        "DisplayName": "Leominster",
-        "Distance": 0.0,
+        "Name": "Leominster",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/a/a0/Monument_Square_Leominster.jpg",
         "Latitude": 42.547592163085938,
-        "Longitude": -71.7579345703125,
-        "ID": "Leominster"
+        "Longitude": -71.7579345703125
     },
     "Lowell": {
         "Address": "77 Middlesex Street",
-        "DisplayAddress": "77 Middlesex Street, Lowell, MA",
-        "DisplayName": "Lowell",
-        "Distance": 0.0,
+        "Name": "Lowell",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Front_of_boott_mill.jpg/320px-Front_of_boott_mill.jpg",
         "Latitude": 42.6414794921875,
-        "Longitude": -71.310104370117188,
-        "ID": "Lowell"
+        "Longitude": -71.310104370117188
     },
     "Marthas Vineyard": {
         "Address": "11 A Street",
-        "DisplayAddress": "11 A Street, Marthas Vineyard, MA",
-        "DisplayName": "Martha's Vineyard",
-        "Distance": 0.0,
+        "Name": "Martha's Vineyard",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Martha%27s_Vineyard_Cottages.jpg/640px-Martha%27s_Vineyard_Cottages.jpg",
         "Latitude": 41.391582489013672,
-        "Longitude": -70.603317260742188,
-        "ID": "Marthas Vineyard"
+        "Longitude": -70.603317260742188
     },
     "Milford": {
         "Address": "14 Beach Street",
-        "DisplayAddress": "14 Beach Street, Milford, MA",
-        "DisplayName": "Milford",
-        "Distance": 0.0,
+        "Name": "Milford",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Milford_Town_Hall%2C_MA.jpg/320px-Milford_Town_Hall%2C_MA.jpg",
         "Latitude": 42.1423454284668,
-        "Longitude": -71.51239013671875,
-        "ID": "Milford"
+        "Longitude": -71.51239013671875
     },
     "Nantucket": {
         "Address": "Broad Street",
-        "DisplayAddress": "Broad Street, Nantucket, MA",
-        "DisplayName": "Nantucket",
-        "Distance": 0.0,
+        "Name": "Nantucket",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Brant_Point_Light_-_Nantucket_MA.jpg/576px-Brant_Point_Light_-_Nantucket_MA.jpg",
         "Latitude": 41.285541534423828,
-        "Longitude": -70.0978775024414,
-        "ID": "Nantucket"
+        "Longitude": -70.0978775024414
     },
     "Natick": {
         "Address": "Massachusetts Turnpike Natick Eastbound API Center",
-        "DisplayAddress": "Massachusetts Turnpike Natick Eastbound API Center, Natick, MA",
-        "DisplayName": "Natick",
-        "Distance": 0.0,
+        "Name": "Natick",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Fast_lane_sign.jpg/640px-Fast_lane_sign.jpg",
         "Latitude": 42.3111572265625,
-        "Longitude": -71.3648910522461,
-        "ID": "Natick"
+        "Longitude": -71.3648910522461
     },
     "New Bedford": {
         "Address": "278 Union Street",
-        "DisplayAddress": "278 Union Street, New Bedford, MA",
-        "DisplayName": "New Bedford",
-        "Distance": 0.0,
+        "Name": "New Bedford",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Downtown_New_Bedford_MA.jpg/640px-Downtown_New_Bedford_MA.jpg",
         "Latitude": 41.633747100830078,
-        "Longitude": -70.929115295410156,
-        "ID": "New Bedford"
+        "Longitude": -70.929115295410156
     },
     "N Adams": {
         "Address": "33 Main Street",
-        "DisplayAddress": "33 Main Street, N Adams, MA",
-        "DisplayName": "North Adams",
-        "Distance": 0.0,
+        "Name": "North Adams",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/MassMoCa.jpg/640px-MassMoCa.jpg",
         "Latitude": 42.699558258056641,
-        "Longitude": -73.113883972167969,
-        "ID": "N Adams"
+        "Longitude": -73.113883972167969
     },
     "Pittsfield": {
         "Address": "333 East Street",
         "DisplayAddress": "333 East Street, Pittsfield, MA",
-        "DisplayName": "Pittsfield",
-        "Distance": 0.0,
+        "Name": "Pittsfield",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Park_Square%2C_Pittsfield_MA.jpg/640px-Park_Square%2C_Pittsfield_MA.jpg",
         "Latitude": 42.447639465332031,
-        "Longitude": -73.247604370117188,
-        "ID": "Pittsfield"
+        "Longitude": -73.247604370117188
     },
     "Plymouth": {
         "Address": "40 Industrial Park Road",
-        "DisplayAddress": "40 Industrial Park Road, Plymouth, MA",
-        "DisplayName": "Plymouth",
-        "Distance": 0.0,
+        "Name": "Plymouth",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Mayflower_II.jpg/600px-Mayflower_II.jpg",
         "Latitude": 41.960273742675781,
-        "Longitude": -70.700531005859375,
-        "ID": "Plymouth"
+        "Longitude": -70.700531005859375
     },
     "Revere": {
         "Address": "9 Everett Street",
-        "DisplayAddress": "9 Everett Street, Revere, MA",
-        "DisplayName": "Revere",
-        "Distance": 0.0,
+        "Name": "Revere",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Paul_Revere_Statue_by_Cyrus_E._Dallin%2C_North_End%2C_Boston%2C_MA.JPG/576px-Paul_Revere_Statue_by_Cyrus_E._Dallin%2C_North_End%2C_Boston%2C_MA.JPG",
         "Latitude": 42.409732818603516,
-        "Longitude": -71.001083374023438,
-        "ID": "Revere"
+        "Longitude": -71.001083374023438
     },
     "Roslindale": {
         "Address": "8 Cummins Highway",
-        "DisplayAddress": "8 Cummins Highway, Roslindale, MA",
-        "DisplayName": "Roslindale",
-        "Distance": 0.0,
+        "Name": "Roslindale",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/SacredHeartRoslindale_PWFord2.jpg/566px-SacredHeartRoslindale_PWFord2.jpg",
         "Latitude": 42.286384582519531,
-        "Longitude": -71.127761840820312,
-        "ID": "Roslindale"
+        "Longitude": -71.127761840820312
     },
     "Yarmouth": {
         "Address": "1084 Route 28",
-        "DisplayAddress": "1084 Route 28, Yarmouth, MA",
-        "DisplayName": "South Yarmouth",
-        "Distance": 0.0,
+        "Name": "South Yarmouth",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Bass_River%2C_South_Yarmouth_MA.jpg/640px-Bass_River%2C_South_Yarmouth_MA.jpg",
         "Latitude": 41.661430358886719,
-        "Longitude": -70.202079772949219,
-        "ID": "Yarmouth"
+        "Longitude": -70.202079772949219
     },
     "Southbridge": {
         "Address": "6 Larochelle Way",
-        "DisplayAddress": "6 Larochelle Way, Southbridge, MA",
-        "DisplayName": "Southbridge",
-        "Distance": 0.0,
+        "Name": "Southbridge",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Southbridge_Town_Hall.jpg/358px-Southbridge_Town_Hall.jpg",
         "Latitude": 42.077041625976562,
-        "Longitude": -72.033210754394531,
-        "ID": "Southbridge"
+        "Longitude": -72.033210754394531
     },
     "Springfield": {
         "Address": "165 Liberty Street",
-        "DisplayAddress": "165 Liberty Street, Springfield, MA",
-        "DisplayName": "Springfield",
-        "Distance": 0.0,
+        "Name": "Springfield",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Avenue_of_States%2C_The_Big_E%2C_West_Springfield_MA.jpg/320px-Avenue_of_States%2C_The_Big_E%2C_West_Springfield_MA.jpg",
         "Latitude": 42.108268737792969,
-        "Longitude": -72.593399047851562,
-        "ID": "Springfield"
+        "Longitude": -72.593399047851562
     },
     "Taunton": {
         "Address": "1 Washington Street",
-        "DisplayAddress": "1 Washington Street, Taunton, MA",
-        "DisplayName": "Taunton",
-        "Distance": 0.0,
+        "Name": "Taunton",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/4/48/Taunton_Green_Statue.jpg",
         "Latitude": 41.902469635009766,
-        "Longitude": -71.099746704101562,
-        "ID": "Taunton"
+        "Longitude": -71.099746704101562
     },
     "Watertown": {
         "Address": "550 Arsenal Street",
-        "DisplayAddress": "550 Arsenal Street, Watertown, MA",
-        "DisplayName": "Watertown",
-        "Distance": 0.0,
+        "Name": "Watertown",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Main_Street_Watertown_MA_2.jpg/320px-Main_Street_Watertown_MA_2.jpg",
         "Latitude": 42.363052368164062,
-        "Longitude": -71.158111572265625,
-        "ID": "Watertown"
+        "Longitude": -71.158111572265625
     },
     "Wilmington": {
         "Address": "355 Middlesex Avenue",
-        "DisplayAddress": "355 Middlesex Avenue, Wilmington, MA",
-        "DisplayName": "Wilmington",
-        "Distance": 0.0,
+        "Name": "Wilmington",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Church_Street%2C_Wilmington_MA.jpg/320px-Church_Street%2C_Wilmington_MA.jpg",
         "Latitude": 42.566768646240234,
-        "Longitude": -71.1595687866211,
-        "ID": "Wilmington"
+        "Longitude": -71.1595687866211
     },
     "Worcester": {
         "Address": "611 Main Street",
-        "DisplayAddress": "611 Main Street, Worcester, MA",
-        "DisplayName": "Worcester",
-        "Distance": 0.0,
+        "Name": "Worcester",
         "ImagePath": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Downtown_Worcester%2C_Massachusetts.jpg/640px-Downtown_Worcester%2C_Massachusetts.jpg",
         "Latitude": 42.260147094726562,
-        "Longitude": -71.804328918457031,
-        "ID": "Worcester"
+        "Longitude": -71.804328918457031
     }
 }
