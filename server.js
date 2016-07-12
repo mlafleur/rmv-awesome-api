@@ -18,8 +18,10 @@ app.get('/', function (req, res) {
 });
 
 app.get('/branches', function (req, res) {
-    res.type('json');
-    res.send(JSON.stringify(branchData, null, 4));
+    rmv.getBranchData(function (branchData) {
+        res.type('json');
+        res.send(JSON.stringify(branchData, null, 4));
+    });
 });
 
 app.get('/rmv', function (req, res) {
